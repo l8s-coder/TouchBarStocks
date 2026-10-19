@@ -69,3 +69,7 @@ App 断开、8 秒心跳超时、读数或写入异常、连续三次模式/目�
 ## 本地数据与凭据
 
 运行态自选表位于用户的 `~/Library/Application Support/TouchBarStocks/watchlist.json`，设置保存在 UserDefaults；本仓库不包含本机运行数据或 Git 历史迁移。构建使用 ad-hoc 签名，不需要上传证书、私钥或开发者凭据。不要将运行配置、环境变量文件、日志、私有签名材料或访问令牌加入版本控制。
+
+## 开源协议
+
+本项目采用 [MIT License](LICENSE)。
