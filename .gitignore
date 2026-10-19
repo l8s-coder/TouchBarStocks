@@ -1,0 +1,27 @@
+# Build products and local state
+/build/
+/dist/
+*.app/
+*.zip
+.DS_Store
+DerivedData/
+*.log
+runtime/
+watchlist.json
+*diagnostics*.json
+*verification*.json
+# Credentials, private signing material and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+.ssh/
+.aws/
+.config/
+credentials*
+secrets*
